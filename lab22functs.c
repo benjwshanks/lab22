@@ -19,3 +19,5 @@ void displayBiGrams(int biGrams[][MAX_NUM_WORDS], int size){
        printf("\n");
     }
 }
+
+
