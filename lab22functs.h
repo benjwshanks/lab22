@@ -1,5 +1,6 @@
 #define MAX_WORD_LEN 15
 #define MAX_NUM_WORDS 300
+#include <stdbool.h>
 
 /* @brief open a file saftly
  * @param fName the name of the file to open

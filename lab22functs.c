@@ -2,6 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <stdbool.h>
+
 
 void displayWordList(char wordList[][MAX_WORD_LEN], int length){
    for(int i = 0; i < length; i++){
