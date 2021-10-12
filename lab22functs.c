@@ -1,3 +1,8 @@
+#include "lab22functs.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
 void displayWordList(char wordList[][MAX_WORD_LEN], int length){
    for(int i = 0; i < length; i++){
       printf("%03i : %s\n", i, wordList[i]);
