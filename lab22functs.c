@@ -27,4 +27,16 @@ FILE* openFile(char fName[], char fMode[]) {
    
 }
 
+bool getStringFromFile(FILE* inFile, char word[MAX_WORD_LEN]){
+   char line[100];
+   char *sp;
+   while((fgets(line,100, inFile)!=NULL)){
+        sp = strtok(line," ");
+        strcpy(word,sp);
+        return true;
+   }
+   
+
+}
+
 
