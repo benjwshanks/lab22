@@ -39,4 +39,8 @@ bool getStringFromFile(FILE* inFile, char word[MAX_WORD_LEN]){
 
 }
 
+int addStringToList(char word[], char wordList[][MAX_WORD_LEN], int words) {
+
+}
+
 
