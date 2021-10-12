@@ -24,7 +24,7 @@ void displayBiGrams(int biGrams[][MAX_NUM_WORDS], int size){
 FILE* openFile(char fName[], char fMode[]) {
    FILE* output = NULL;
    output = fopen(fName, fMode);
-   
+   return output;
 }
 
 
