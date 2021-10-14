@@ -40,7 +40,14 @@ bool getStringFromFile(FILE* inFile, char word[MAX_WORD_LEN]){
 }
 
 int addStringToList(char word[], char wordList[][MAX_WORD_LEN], int words) {
-
+   int count = 0;
+   for(int i = 0; i < len(wordList); ++i) {
+      int comp1 = strcmp(word, wordList[i]); 
+      if (comp1 == 0) {
+         count++;
+      }
+   }
+   strcpy(wordList[words], word);
 }
 
 
